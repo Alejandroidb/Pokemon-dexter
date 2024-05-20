@@ -41,8 +41,8 @@ const Detalles = () => {
                 <li className="card-text">
                   Experiencia Base: {pokemon.base_experience}
                 </li>
-                <li className="card-text">Altura: {pokemon.height}</li>
-                <li className="card-text">Peso: {pokemon.weight}</li>
+                <li className="card-text">Altura: {pokemon.height} cm.</li>
+                <li className="card-text">Peso: {pokemon.weight} kgs.</li>
                 <li className="card-text">Tipo: {pokemon.type}</li>
               </ul>
 
