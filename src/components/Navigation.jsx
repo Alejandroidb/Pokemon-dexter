@@ -9,7 +9,7 @@ const Navigation = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <NavLink className={({ isActive }) => `navbar-brand ${setActiveClass({ isActive })}`} to="/">
-          <img src="src\assets\img\logo-pokemon-79x45.png" alt="pokemon" />
+          <img src="public\assets\img\logo-pokemon-79x45.png" alt="pokemon" />
         </NavLink>
         <button
           className="navbar-toggler"
