@@ -3,10 +3,12 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { PokeContext } from '../context/PokeContext'
 const Detalles = () => {
     const {pokemones} = useContext(PokeContext)
-    const { name } = useParams()
+
+    const { id } = useParams()
     const navigate = useNavigate()
 
-    let pokemon = pokemones.find((pokemon) => pokemon.name == name)
+    let pokemon = pokemones.find((pokemon) => pokemon.id == id)
+
 
     if (!pokemon) {
         return (
@@ -24,7 +26,7 @@ const Detalles = () => {
   return (
     <div className='container mt-3'>
         <div className='card'>
-            <img src={pokemon.img} className='card-img-top' alt={pokemon.name}/>
+            <img src={pokemon.img} className='card-img-top imagen' alt={pokemon.name}/>
             <div className='card-body text-center'>
                 <h5 className='card-title'>{pokemon.name}</h5>
             </div>
