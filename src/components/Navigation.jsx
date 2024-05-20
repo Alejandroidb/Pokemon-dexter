@@ -30,7 +30,7 @@ const Navigation = () => {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-warning ${setActiveClass({ isActive })}`
+                  `nav-link ${setActiveClass({ isActive })}`
                 }
                 to="/"
                 aria-current="page"
@@ -42,7 +42,7 @@ const Navigation = () => {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  `nav-link text-warning ${setActiveClass({ isActive })}`
+                  `nav-link ${setActiveClass({ isActive })}`
                 }
                 to="/Pokemones"
               >
