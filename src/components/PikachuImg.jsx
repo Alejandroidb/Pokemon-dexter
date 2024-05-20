@@ -7,6 +7,7 @@ const PikachuImg = ({imageName}) =>{
     return (
         <>
         <img src={getPic(imageName)} alt={imageName} className="pikachu img-fluid" />
+        <audio src="https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/25.ogg" autoPlay></audio>
         </>
     )
 }
