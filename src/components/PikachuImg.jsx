@@ -6,7 +6,7 @@ const getPic = (imageName) =>{
 const PikachuImg = ({imageName}) =>{
     return (
         <>
-        <img src={getPic(imageName)} alt={imageName} className="pikachu" />
+        <img src={getPic(imageName)} alt={imageName} className="pikachu img-fluid" />
         </>
     )
 }
