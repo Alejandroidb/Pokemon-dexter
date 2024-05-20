@@ -12,7 +12,7 @@ const Navigation = () => {
           }
           to="/"
         >
-          <img src="/src/assets/img/logo-pokemon-79x45.png" alt="pokemon" />
+          <img src="./src/assets/img/logo-pokemon-79x45.png" alt="pokemon" />
         </NavLink>
         <button
           className="navbar-toggler"
