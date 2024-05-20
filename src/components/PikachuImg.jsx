@@ -1,6 +1,6 @@
 import React from "react";
 const getPic = (imageName) =>{
-    return `src/assets/img/Pikachu.png`
+    return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png`
 }
 
 const PikachuImg = ({imageName}) =>{
