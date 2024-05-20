@@ -36,7 +36,10 @@ const Pokemones = () => {
           ))}
         </select>
       </div>
-      <button className="btn btn-primary mt-3 text-center" onClick={handleSubmit}>
+      <button
+        className="btn btn-primary mt-3 text-center"
+        onClick={handleSubmit}
+      >
         Ver detalles
       </button>
     </div>
