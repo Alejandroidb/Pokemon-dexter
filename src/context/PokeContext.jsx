@@ -16,11 +16,17 @@ const PokeProvider = ({ children }) => {
       const newPokemons = results.map(async (pokemon) => {
         const response = await fetch(pokemon.url);
         const poke = await response.json();
-
+// console.log(poke);
         return {
           id: poke.id,
           name: poke.name,
           img: poke.sprites.other.dream_world.front_default,
+          base_experience: poke.base_experience,
+          height: poke.height,
+          weight: poke.weight,
+          type: poke.types[0].type.name
+
+
         };
       });
       setPokemones(await Promise.all(newPokemons));
