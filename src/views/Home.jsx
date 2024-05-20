@@ -6,7 +6,7 @@ const Home = () => {
     <>
     <div className="container text-center">
         <p className='fs-1'>Bienvenido Maestro Pokemón</p>
-        <img src="public\assets\img\Pikachu.png" alt="Pikachu" className='pikachu img-fluid'/>
+        <img src="/src/assets/img/Pikachu.png" alt="Pikachu" className='pikachu img-fluid'/>
       </div>
     </>
   )
